@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+background-color: rgb(255, 255, 255);
+
+}
+h1{
+  padding:0.2em 0em 0.2em 0em;
+  background-color: rgb(206, 103, 103);
+  color:white;
+  border-radius: 50em;
+  color:white;
+  width:10em;
+  margin:1em auto;
+}
+.todo-p{
+  font-size: 1.3em;
+}
+.btn{
+  font-size:2em;
+  padding:0.8rem 3rem;
+  background-color: rgb(206, 103, 103);
+  border-radius: 2rem;
+  color:white
+}
+.btn2{
+  background-color: rgb(206, 103, 103);
+  border-radius: 2rem;
+  color:white
+}
+.todolist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.todos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.btn:hover{
+  background-color: rgb(211, 154, 154);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input{
+  margin:1em;
+
+}
+button{
+  border:none;
+  padding:0.4em 1em;
+  border-radius: 2em;
+}
+li{
+  list-style-type: none;
+  text-decoration: none;
+  padding:0.7em;
+}
