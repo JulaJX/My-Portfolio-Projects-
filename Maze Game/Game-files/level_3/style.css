@@ -1,0 +1,90 @@
+body 
+{
+    background: black;
+    color: white;
+    padding: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+ #GameBoardCanvas {
+    border: 10px solid rgb(255, 255, 255);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    display: block;
+}
+
+#stopwatch 
+{
+    font-size: 80px;
+    text-align: center;
+}
+
+header a
+{
+    font-size: 20px;
+    text-decoration: none;
+}
+.black-bg-div {
+    background-color: black;
+}
+
+.red-set {
+    background-color: rgb(251, 58, 58);
+}
+
+.blue-set {
+    background-color: rgb(43, 43, 241);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.menuback{
+    font-size:40px;
+}
+.back-arrow{
+    font-size:40px;
+    margin:0 20px;
+}
+.menuback:hover{
+    opacity:0.8;
+}
+.back-option:hover{
+    opacity:0.8;
+}
+.music-on,.music-off{
+    font-size:55px;
+}
+.music{
+    position:absolute;
+    right:50px;
+    top:30px;
+    display: flex;
+}
+.display{
+    display:none;
+}
+.h1-win,.h1-next{
+font-size:50px;
+position: absolute;
+}
+.h1-win{
+top:-300px;
+right:200px;
+}
+.h1-next{
+top:-300px;
+left:140px;
+}
+.h1-next:hover{
+    opacity:0.5;
+    transition: ease-in 300ms;
+}
+.normal{
+    transform:translateY(600px);
+    transition: all 2s;
+}

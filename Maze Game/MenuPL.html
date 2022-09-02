@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="wrapper">
+
+    <header>
+        <i class="fab fa-magento logo"></i>
+        <h1 class="main-h1">Gra Labirynt</h1>
+    </header>
+    <main>
+        <ul class="options">
+            <li><a href="Game-files/level_1/level1PL.html" class="start">Start</a></li>
+            <li><a href="#" class="controls">Sterowanie</a></li>
+            <li><a href="#" class="settings">Ustawienia</a></li>
+            <li><a href="#" class="about-game">O grze</a></li>
+        </ul>
+
+
+        <div class="controls-menu">
+            <i class="fas fa-times-circle close"></i>
+            <h1 class="controls-header"> Sterowanie</h1>
+            <div class="div">
+                <p>Ruch do gory</p>
+                <i class="fas fa-arrow-up up"></i>
+            </div>
+
+            <div class="div">
+                <p>Ruch w prawo</p>
+                <i class="fas fa-arrow-right right"></i>
+            </div>
+
+            <div class="div">
+                <p>Ruch w dol</p>
+                <i class="fas fa-arrow-down down"></i>
+            </div>
+
+            <div class="div">
+                <p>Ruch w lewo</p>
+                <i class="fas fa-arrow-left left"></i>
+            </div>
+        </div>
+
+
+        <div class="settings-menu">
+            <i class="fas fa-times-circle close2"></i>
+            <div class="container">
+                <h2>Jezyk</h2>
+                <div class="flags">
+                    <a href="MenuEN.html"><img src="images/en.png" alt="angielski" class="language1"></a>
+                    <a href="MenuPL.html"><img src="images/pl.png" alt="polski" class="language2"></a>
+                </div>
+                <h2 class="special">Muzyka</h2>
+                <div class="music">
+
+                    <button class="on on2" type="button">Wlacz</button>
+                    <button class="off off2" type="button">Wylacz</button>
+                </div>
+                <h2>Kolor tla</h2>
+                <div class="container2">
+                    <div class="red-bg-div"></div>
+                    <div class="blue-bg-div"></div>
+                    <div class="black-bg-div"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="about-menu">
+            <i class="fas fa-times-circle close3"></i>
+            <p class="about-p">Jest to prosta gra <br> z gatunku Puzzle której celem jest uciekniecie z <br> LABIRYNTU!
+            </p>
+        </div>
+    </main>
+    <footer>
+        <h1>Stworzone przez<br><span class="span2">Juliusza Jakóbika</span>
+           
+    </footer>
+    <script src="Menu.js"></script>
+    
+</body>
+
+</html>

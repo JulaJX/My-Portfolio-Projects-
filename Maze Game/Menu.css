@@ -1,0 +1,269 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 4em;
+    margin-top: 80px;
+}
+
+.span1 {
+    color: rgb(255, 230, 0)
+}
+
+.span2 {
+    color: rgb(74, 223, 55)
+}
+
+.span3 {
+    color: rgb(0, 234, 255)
+}
+
+.main-h1 {
+    padding: 20px;
+    font-size: 60px;
+}
+
+.logo {
+    font-size: 70px;
+    padding: 20px;
+}
+
+.about-p {
+    text-align: center;
+    line-height: 2.2em;
+    font-size: 30px;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left,
+.up,
+.down,
+.right {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.controls-header {
+    margin-right: 30px;
+}
+
+.controls-menu,
+.settings-menu,
+.about-menu {
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(7, 7, 7, 0.514);
+    left: 140px;
+    top: 260px;
+    border-radius: 10px;
+    font-size: 22px;
+    border: 1px solid white;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.display-none {
+    display: none;
+}
+
+.close {
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.close2 {
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.close3 {
+    font-size: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.language1 {
+    width: 50px;
+    height: 32px;
+    margin: 0 15px;
+}
+.language2 {
+    width: 50px;
+    height: 32px;
+    margin: 0 15px;
+}
+.flags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.off,
+.on {
+    border: none;
+    background: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.on {
+    margin-right: 10px;
+}
+
+.off {
+    margin-left: 10px;
+}
+
+.off2,
+.on2 {
+    border: none;
+    background: none;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+
+.music-on {
+    background-color: green;
+}
+
+.music-off {
+    background-color: red;
+}
+
+.red-bg-div,
+.blue-bg-div,
+.black-bg-div {
+    width: 40px;
+    height: 40px;
+    border: white solid 1px;
+    margin: 0 15px;
+}
+
+.red-bg-div {
+    background-color: rgb(251, 58, 58);
+}
+
+.blue-bg-div {
+    background-color: rgb(43, 43, 241);
+}
+
+.black-bg-div {
+    background-color: black;
+}
+
+.red-set {
+    background-color: rgb(251, 58, 58);
+}
+
+.blue-set {
+    background-color: rgb(43, 43, 241);
+}
+
+.black-set {
+    background-color: black;
+}
+
+.chosen-one {
+    border: 3px solid white;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.music {
+    display: flex;
+    justify-content: center;
+}
+
+/*HOVERS*/
+a:hover {
+    color: rgba(255, 255, 255, 0.527);
+    transition: 200ms ease;
+}
+
+.language:hover {
+    opacity: 0.5;
+    transition: 200ms ease;
+
+}

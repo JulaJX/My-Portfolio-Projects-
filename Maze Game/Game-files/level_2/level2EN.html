@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="wrapper">
+    <header>
+
+        <div class="back-option">
+            <i class="fas fa-arrow-alt-circle-left back-arrow"></i>
+            <a class="menuback" href="../../MenuEN.html">Menu</a>
+        </div>
+        <div class="music">
+            <div class="d1">
+                <i class="fas fa-volume-up music-on"></i>
+            </div>
+            <div class="d2">
+                <i class="fas fa-volume-mute music-off"></i>
+            </div>
+        </div>
+        <div class="win">
+            <h1 class="h1-win">You won!</h1>
+            <a href="../level_3/level3EN.html"><h1 class="h1-next">Next level</h1></a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div id="stopwatch">
+            00:00:00
+        </div>
+        <div "startTimer()"></div>
+
+    </main>
+
+
+    <canvas id="GameBoardCanvas" width="500px" height="500px"></canvas>
+    <!--    jQuery lokalnie -->
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="level2.js"></script>
+</body>
+
+</html>
