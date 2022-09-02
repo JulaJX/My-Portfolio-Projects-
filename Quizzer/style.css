@@ -1,0 +1,146 @@
+/*HEADER STYLES*/
+
+header{
+    padding: 5px 0px;
+    width:100%;
+    text-align: center;
+    background-color: rgb(117, 216, 255);
+    color:White;
+    font-size:20px;
+    position: fixed;
+    top:0;
+}
+
+.logout{
+    text-decoration: none;
+    color:white;
+}
+.logoutt{
+    margin:250px 0px;
+}
+
+.rowspec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(226, 226, 226);
+}
+.icon{
+    font-size:16px;
+    margin:20px;
+    border:2px solid rgb(255, 255, 255);
+    padding:10px 12px;
+    border-radius: 3em; 
+}
+.icon:hover{
+    color:rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+}
+.icon:visited{
+    color:rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+}
+.logout:hover{
+    color:rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+}
+.logo:hover{
+    color:rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+}
+.logo{
+    text-align: left;
+    color:white;
+    
+}
+.a{
+    color:White;
+    text-decoration: none;
+}
+.a:hover{
+    color:rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+}
+.error{
+    color:red;
+    font-weight: bold;
+    margin:5px;
+    font-size: 12px;
+}
+/*FOOTER*/
+.foot1{
+    padding: 10px 0px 0px 0px;
+    width:100%;
+    text-align: center;
+    background-color: rgb(117, 216, 255);
+    color:White;
+    font-size:20px;
+    margin-top:120px;
+    position: fixed;
+    bottom:0;
+}
+.flush{
+margin-top:100px;
+}
+/*LOGIN AND REGISTER STYLES*/
+
+.h1-1{
+    margin-bottom: 10px;
+    color: rgb(117, 216, 255);
+}
+.form1{
+    margin-top: 230px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form2{
+    margin-top: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.label1{
+    padding:4px;
+}
+.input1{
+    padding:4px;
+    border:none;
+    border-bottom: rgb(114, 114, 114) 1px solid;   
+}
+.input1:focus{
+    outline: none;
+    background-color: rgb(241, 241, 241);
+    border-bottom: rgb(114, 114, 114) 1px solid;   
+}
+.input1::placeholder{
+    text-align: center;
+}
+.submitbtn1{
+    padding:10px 15px;
+    border:none;
+    color:white;
+    background-color:rgb(117, 216, 255) ;
+    border-radius: 3px;
+    margin-top:10px;
+}
+.m1{
+    padding: 20px 0px 5px 0px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin:10px;
+    color:rgb(83, 83, 83);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.sds{
+    color:rgb(117, 216, 255);
+    color:rgb(27, 159, 211);
+}
