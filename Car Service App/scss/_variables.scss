@@ -1,0 +1,18 @@
+$primary: rgb(190, 101, 60);
+$secondary:rgb(73, 73, 73);
+$warning:rgb(255, 255, 255);
+$success:rgb(255, 124, 64);
+$danger:rgb(255, 143, 143);
+
+@mixin flexcenter($direction) {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:$direction;
+}
+@mixin flexright($direction) {
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction:$direction;
+}
